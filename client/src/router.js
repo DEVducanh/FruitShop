@@ -11,9 +11,9 @@ const RenderUserRouter = () => {
       component: <Homepage />,
     },
     {
-        path:ROUTERS.USER.PROFILE,
-        component: <ProfilePage />
-    }
+      path: ROUTERS.USER.PROFILE,
+      component: <ProfilePage />,
+    },
   ];
 
   return (
